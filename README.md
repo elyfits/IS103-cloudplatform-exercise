@@ -131,7 +131,7 @@
 
   function calculate() {
     try {
-      // Palitan ang % ng /100 para gumana ang percentage
+
       let expression = display.value.replace(/%/g, '/100');
       display.value = eval(expression);
     } catch (error) {
